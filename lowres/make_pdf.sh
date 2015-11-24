@@ -6,7 +6,7 @@ do
 done
 
 echo "And now generating the PDF..."
-convert ../C*.lowres.jpg ../A*.lowres.jpg PatinhoFeio_lowres.pdf
+convert ../capa*.lowres.jpg ../I*.lowres.jpg ../C*.lowres.jpg ../A*.lowres.jpg PatinhoFeio_lowres.pdf
 echo "done."
 
 rm ../*.lowres.jpg -f
